@@ -3,6 +3,10 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "author": {
+    "name": "Dmytro Bezvoshchuk",
+    "email": "bezvoshchuk@gmail.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "npm run format && npm run lint && tsc && vite build",
