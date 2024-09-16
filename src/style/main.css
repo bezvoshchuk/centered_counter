@@ -1,32 +1,35 @@
+:root {
+  --background-color: #bada55;
+  --label-color: darkgreen;
+  --button-shadow: 1px 1px 4px 2px #557668;
+  --button-shadow-active: 1px 1px 1px 1px #557668;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background: #eee;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
 }
 
 main {
-  background: #bada55;
+  background: var(--background-color);
   width: 100vw;
   height: 100vh;
 }
 
 .controls {
-  top: 2rem;
-  left: 2rem;
 }
 
 .control {
-  margin-right: 1rem;
 }
 
 .control label {
   display: block;
-  color: darkgreen;
+  color: var(--label-color);
   margin-bottom: 0.2rem;
   text-transform: uppercase;
 }
@@ -44,16 +47,15 @@ main {
   background: yellow;
   border-radius: 0.4rem;
   border: 2px solid green;
-  box-shadow: 1px 1px 4px 2px #557668;
+  box-shadow: var(--button-shadow);
 }
 
 .count_button:active {
-  box-shadow: none;
-  box-shadow: 1px 1px 1px 1px #557668;
+  box-shadow: var(--button-shadow-active);
 }
 
 .count_button .current_count {
   font-size: 2rem;
   font-weight: bold;
-  color: darkgreen;
+  color: var(--label-color);
 }
