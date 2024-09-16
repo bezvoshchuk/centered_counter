@@ -1,5 +1,22 @@
 # Vanilla JS + CSS programming problem
 
+## Implementation notes
+
+Hi!
+My name is Dmytro and this is my attempt to implement coding challange described below.
+
+First of all thank you for considering me as a candidate.
+Secondly, so the task looks simple at glance it covers broad of knowledge and was really fun to implement it.
+
+Except the original task I tried to get a few additional points, so:
+
+- I added eslint and prettier, these tools are must for any project these days.
+- I added accessibility ARIA labels.
+- On purpose to recuce some time I used only one main branch during development. I understand that in real life all those changes definitely should come as PRs. I also used Conventional Commit Messages to show some kind of coding flow culture.
+- I see that task was presented using camel_case notation. I assume that was done for the sake of consistency (maybe backend is written in Python or something), so I continued to follow it, but should mention that in JS/TS ecosystem camelCase notation is recomended.
+- I extended existing tests and added e2e ui ones (using Cypress).
+- All npm scripts are updated corespondingly.
+
 ## Requisites
 
 node
