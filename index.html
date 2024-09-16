@@ -4,25 +4,29 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="/src/style/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Centered counter</title>
-    </head>
+    <title>Centered counter</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
   <body>
-      <main>
-        <div class="controls">
-          <div class="control">
-            <label for="start_at">Start at</label>
-            <input name="start_at" value="0" id="start_at"/>
-          </div>
+    <main>
+      <div class="controls">
+        <div class="control">
+          <label for="start_at">Start at</label>
+          <input name="start_at" value="0" id="start_at" />
+        </div>
         <div class="control">
           <label for="step">Step</label>
-          <input name="step" value="1" id="step"/>
-        </div>
+          <input name="step" value="1" id="step" />
         </div>
       </div>
       <button class="count_button">
-        <span class="current_count">
-          0
-        </span>
+        <span class="current_count"> 0 </span>
       </button>
     </main>
     <script type="module" src="/src/main.ts"></script>
